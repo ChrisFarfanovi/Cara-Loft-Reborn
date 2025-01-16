@@ -48,7 +48,10 @@ class Words:
 
 if __name__ == "__main__":
     words = Words()
-    print(words.random_adjective())
-    print(words.random_noun_armour())
-    print(words.random_noun_weapon())
-    print(words.random_noun_of())
+    # print(words.random_adjective())
+    # print(words.random_noun_armour())
+    # print(words.random_noun_weapon())
+    # print(words.random_noun_of())
+    print(
+        f"{words.random_adjective()} {words.random_noun_armour()} of {words.random_noun_of()}.".capitalize()
+    )
